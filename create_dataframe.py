@@ -10,3 +10,4 @@ rdd1 = spark.sparkContext.parallelize(data)
 df = spark.createDataFrame(rdd1).toDF(*columns)
 
 df.show(truncate=False)
+
